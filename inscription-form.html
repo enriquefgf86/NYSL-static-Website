@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NYSL Soccer League</title>
+    <link rel="stylesheet" href="./styles-css/styles1.css" />
+  </head>
+  <body class="form">
+    <header>
+      <section id="todo">
+        <h2 class="titulos">
+          North Side Youth Soccer League
+        </h2>
+        <div id="logo">
+          <img class="logo0" src="./images/nysl_logo.png" alt="nysl_logo" />
+          <img class="logo1" src="./images/nysl_logo.png" alt="nysl_logo" />
+          <img class="logo2" src="./images/nysl_logo.png" alt="nysl_logo" />
+        </div>
+        <div class="apartado">
+          <h1> Registration Form</h1>
+        </div>
+      </section>
+    </header>
+    <main class="inscripcion"><!--empieza la clase que contiene el formulario, su posicionamiento es columnario-->
+      <form action="./formulario-completado.html" method="GET" class="generalform"><!--empieza la clase que contiene el formulario, su posicionamiento es columnario-->
+               <div class="generaldata">
+                        <div class="firstline">
+                          <div class="alineacion">  
+                            <div class="alineacion">
+                              <h4>Player's First Name:</h4>
+                              <input type="text" class="alargado" name="firstname" required />
+                            </div>
+                            <div class="alineacion">  
+                              <h4>Last Name:</h4>
+                              <input type="text" class="alargado" name="lastname" required />
+                            </div>
+                          </div>    
+                        </div>
+                        <div class="secondline">
+                            <div class="alineacion">  
+                              <h4>Street Adress:</h4>
+                              <input type="text" class="alargadostreet" name="streetadress" required />
+                            </div>  
+                        </div>
+                        <div class="thirdline">
+                            <div class ="alineacion">
+                               <div class="alineacion">   
+                                 <h4>City:</h4>
+                                 <input type="text" class="alargadocity" name="city" required />
+                               </div>
+                               <div class="alineacion">  
+                                 <h4>Zip Code:</h4>
+                                 <input type="text" class="alargadozipcode" name="zipcode" required />
+                              </div> 
+                            </div> 
+                        </div>
+                        <div class="fourthline">
+                          <div class="alineacion">  
+                              <div class="alineacion">
+                                   
+                                  <h4>Birth Date (mm/dd/yyyy):</h4>
+                                  <input type="date" class="alargadobirth" name="birthdate" required/>
+                                  
+                              </div>
+                              <div class="alineacion">    
+                                  <h4>Gender</h4>
+                                  <input type="radio" name="gender" value="female" checked />
+                                  <h4>Female</h4>
+                              </div>
+                              <div class="alineacion">
+                                  <input type="radio" name="gender" value="male" checked />
+                                  <h4 class="gender">Male</h4>
+                              </div>
+                          </div>    
+                        </div>
+                        <div class="fifthline">
+                           <div class="alineacion"> 
+                               <h4 class="grade">Grade</h4>
+                               <div class="alineacion">
+                                   <input type="radio" name="grade" value="preschool" checked />
+                                   <h4>Pre-School</h4>
+                               </div>
+                               <div class="alineacion">
+                                   <input type="radio" name="grade" value="1st" checked />
+                                   <h4>1st</h4>
+                                </div>
+                                <div class="alineacion">  
+                                   <input type="radio" name="grade" value="2nd" checked />
+                                   <h4>2nd</h4>
+                                </div> 
+                                <div class="alineacion">  
+                                   <input type="radio" name="grade" value="3rd" checked />
+                                   <h4>3rd</h4>
+                                </div>
+                                <div class="alineacion">    
+                                   <input type="radio" name="grade" value="4th" checked />
+                                   <h4>4th</h4>
+                                </div>
+                                <div class="alineacion">  
+                                   <input type="radio" name="grade" value="5th" checked />
+                                   <h4 class="quinto">5th</h4>
+                                </div>    
+                           </div> 
+                        </div>
+                        <div class="sithline">
+                            <div class="alineacion">
+                                   <h4>Parent/Guardian:</h4>
+                                   <input type="text" class="alargadoparentguardian" name="parentguardian" required/>
+                            </div>
+                        </div>
+                        <div class="seventhline">
+                          <div class="alineacion">
+                                <div class="alineacion">
+                                   <h4>Contact Phone:</h4>
+                                   <input type="text" class="alargadophone" name="contactphone" required />
+                                </div>  
+                                <div class="alineacion" >
+                                   <h4>Contact Email:</h4>
+                                   <input type="email" class="alargadoemail" name="contactemail" required/>
+                                </div>    
+                          </div> 
+                        </div>
+                </div><!--Fin de la primera parte del formlario el genaral data-->
+                <div class=detailschool><!--empieza la segunda paryte del formulario referente cercania de esculas-->
+                        <div class="eightline">
+                          <h4 class="subrayado">Which elementary schools do you live near?</h4>
+                        </div>
+                        <div class="schoolnearby"><!--caja de escuelas cercanas-->
+                            <div class="closestfirst"><!--caja de primera escuela mas cercana-->
+                                 <h4 class="subrayado">First Closest School:</h4>
+                                 <div class="closestfirstcolumns"><!--columnas de la caja 1ra esc mas cercana-->
+                                     <div class="closestfirstcolumnsnum1">
+                                         <div class="alineacion">
+                                              <input type="radio" name="school1"  class="schools" value="ajkatzenmaier" checked/>
+                                              <h4 >AJ Katzenmaier</h4>
+                                         </div>
+                                         <div class="alineacion">
+                                              <input type="radio" name="school1" value="greenbay" checked/>
+                                              <h4>Greenbay</h4>
+                                         </div>
+                                         <div class="alineacion">
+                                              <input type="radio" name="school1" value="howardayeager" checked/>
+                                              <h4>Howard A Yeager</h4>
+                                         </div>
+                                     </div>
+                                     <div class="closestfirstcolumnsnum2">
+                                         <div class="alineacion">
+                                              <input type="radio" name="school1" value="marjoriephart" checked/>
+                                              <h4>Marjorie P Hart</h4>
+                                         </div>
+                                         <div class="alineacion">
+                                              <input type="radio" name="school1" value="northelementary" checked/>
+                                              <h4>North Elementary</h4>
+                                         </div>
+                                         <div class="alineacion">
+                                              <input type="radio" name="school1" value="southelementary" checked />
+                                              <h4>South Elementary</h4>
+                                         </div>
+                                     </div>
+                                 </div><!--cierre de las columnas de la primera escuela mas cercana-->
+                            </div><!--cierre de caja primera escuela mas cercana-->
+                            <div class="closestsecond"><!--caja de segunda escuela mas cercana-->
+                                 <h4 class="subrayado">Second Closest School:</h4>
+                                 <div class="closestsecondcolumns"><!--caja de columnas de la segunda escuela mas cercana-->
+                                     <div class="closestsecondcolumnsnum1">
+                                         <div class="alineacion">
+                                              <input type="radio" name="school2" value="ajkatzenmaier" checked/>
+                                              <h4>AJ Katzenmaier</h4>
+                                         </div>
+                                         <div class="alineacion">
+                                              <input type="radio" name="school2" value="greenbay" checked />
+                                              <h4>Greenbay</h4>
+                                         </div>
+                                         <div class="alineacion">
+                                              <input type="radio" name="school2" value="howardayeager" checked/>
+                                              <h4>Howard A Yeager</h4>
+                                         </div>
+                                     </div>
+                                     <div class="closestsecondcolumnsnum2">
+                                         <div class="alineacion">
+                                              <input type="radio" name="school2" value="marjoriephart" checked />
+                                              <h4>Marjorie P Hart</h4>
+                                         </div>
+                                         <div class="alineacion">
+                                              <input type="radio" name="school2" value="northelementary" checked/>
+                                              <h4>North Elementary</h4>
+                                         </div>
+                                         <div class="alineacion">
+                                              <input type="radio" name="school2" value="southelementary" checked />
+                                              <h4>South Elementary</h4>
+                                         </div>
+                                     </div>
+                                 </div><!--cierre de caja de columnas de la segunda escuela mas cercana-->
+                            </div><!--cierre de caja de segundas escuelas mas cercanas-->
+                        </div><!--cierre de cajas de escuelas cercanas-->
+        
+                  
+                </div><!--cierre del details caja referente a cercania de escuelas-->
+                <div class="detailsplayerbefore"><!--empieza la caja correspondiente a las caracteristicas del jugador antes-->
+                        <div class="ninthline">
+                          <h4 class="subrayado">What position(s) do you normally play? (check all that apply)</h4>
+                        </div>
+                        <div class="formerposition">
+                            <div class="column1formerposition">
+                                <div class ="alineacion">
+                                      <input type="radio" name="position1" value="forward" />
+                                      <h4>Forward</h4>
+                                </div>
+                                <div class="alineacion">
+                                      <input type="radio" name="position2" value="defense" />
+                                      <h4>Defense</h4>
+                                </div>
+                            </div>
+                            <div class="column2formerposition">
+                                <div class="alineacion">
+                                      <input type="radio" name="position3" value="midfield>" />
+                                      <h4>Midfield</h4>
+                                </div>
+                                <div class="alineacion">
+                                      <input type="radio" name="position4" value="golkeeper" />
+                                      <h4>Golkeeper</h4>
+                                </div>
+                            </div>
+                        </div>
+                </div><!--cierre de la caja correspondiente a caracteristicas de jugador antes-->
+                <div class="detailsplayernow"><!--empieza la caja correspondiente a las caracteristicas del jugador ahora-->
+                        <div class="tenline">
+                          <h4 class="subrayado">What position(s) do you want to play? (check all that apply)</h4>
+                        </div>
+                        <div class="actualposition">
+                            <div class="column1actualposition">
+                                <div class ="alineacion">
+                                     <input type="radio" name="position5" value="forward" />
+                                     <h4>Forward</h4>
+                                </div>
+                                <div class="alineacion">
+                                      <input type="radio" name="position6" value="defense" />
+                                      <h4>Defense</h4>
+                                </div>
+                            </div>
+                            <div class="column2actualposition">
+                                <div class="alineacion">
+                                      <input type="radio" name="position7" value="midfield>" />
+                                      <h4>Midfield</h4>
+                                </div>
+                                <div class="alineacion">
+                                      <input type="radio" name="position8" value="golkeeper" />
+                                      <h4>Golkeeper</h4>
+                                </div>
+                            </div>
+                        </div>
+                </div><!--cierre de caja correspondiente a caracteristicas de jugador ahora-->
+                <div class="uniformsdetails"><!--apertura de caja para describir talla de uniforme y permisos-->
+                        <div class="elevenline">
+                                <div class="alineacion">
+                                      <input type="radio" name="uniform" value=uniform >
+                                      <h4>Already Have a Uniform</h4>
+                                </div>
+                        </div>
+                        <div class="sizeuniformsdetails"><!--apertura caja de detalles d euniformes-->
+                            <div class="jerseysize"><!--apertura de caja para talla de jerseys-->
+                                <div class="encabjersey">
+                                    <h4 class="subrayado">Jersey Sizes</h4>
+                                </div>
+                                <div class="columnsjerseysizes">
+                                    <div class="column1jerseysizes">
+                                            <div class="alineacion">
+                                                  <input type="radio" name="size" value="youthsmall">
+                                                  <h4>Youth Small</h4>
+                                            </div> 
+                                            <div class="alineacion">
+                                                  <input type="radio" name="size" value="youthmedium">
+                                                  <h4>Youth Medium</h4>
+                                            </div> 
+                                            <div class="alineacion">
+                                                  <input type="radio" name="size" value="youthlarge">
+                                                  <h4>Youth Large</h4>
+                                            </div>
+                                            <div class="alineacion">
+                                                 <input type="radio" name="size" value="small">
+                                                 <h4>Small</h4>
+                                            </div>
+                                    </div>
+                                    <div class="column2jerseysizes">
+                                            <div class="alineacion">
+                                                 <input type="radio" name="size" value="medium">
+                                                 <h4>Medium</h4>
+                                            </div> 
+                                            <div class="alineacion">
+                                                 <input type="radio" name="size" value="large">
+                                                 <h4>Large</h4>
+                                            </div> 
+                                            <div class="alineacion">
+                                                 <input type="radio" name="size" value="extralarge">
+                                                 <h4>Extra-Large</h4>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div><!--cierre de caja para talla d elos jerseys-->
+                            <div class="shortsize"><!--apertura de caja para talla de shorts-->
+                                <div class="encabshorts">
+                                    <h4 class="subrayado">Short Size</h4>
+                                </div>
+                                <div class="columnsshortsizes">
+                                    <div class="column1shortsizes">
+                                            <div class="alineacion">
+                                                 <input type="radio" name="size1" value="youthsmall">
+                                                 <h4>Youth Small</h4>
+                                            </div> 
+                                            <div class="alineacion">
+                                                 <input type="radio" name="size1" value="youthmedium">
+                                                 <h4>Youth Medium</h4>
+                                            </div> 
+                                            <div class="alineacion">
+                                                 <input type="radio" name="size1" value="youthlarge">
+                                                 <h4>Youth Large</h4>
+                                            </div>
+                                            <div class="alineacion">
+                                                 <input type="radio" name="size1" value="small">
+                                                 <h4>Small</h4>
+                                            </div>
+                                    </div>
+                                    <div class="column2shortsizes">
+                                            <div class="alineacion">
+                                                 <input type="radio" name="size1" value="medium">
+                                                 <h4>Medium</h4>
+                                            </div> 
+                                            <div class="alineacion">
+                                                 <input type="radio" name="size1" value="large">
+                                                 <h4>Large</h4>
+                                            </div> 
+                                            <div class="alineacion">
+                                                 <input type="radio" name="size1" value="extralarge">
+                                                 <h4>Extra-Large</h4>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div><!--cierre de caja para talla de shorts-->
+                        </div><!--cierre de la caja de la talla d elos uniformes*-->
+                        <div class="permission"><!--apertura de la clase permiso u autorizacion de padres*/-->
+                                <div class="encabpermission">
+                                    <h4>Permission to play</h4>
+                                </div>
+                                <div class="detailspermission">
+                                    <h4>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                                         Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                                         accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                                         employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                                         on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                                         sponsored activities, which transportation.
+                                         By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+                                         cancellation policy and agree to its term
+                                    </h4>
+                                </div>
+                                <div class="aprobationsignature">
+                                    <div class="alineacion">
+                                        <h4>Parent/Guardian Signature:</h4>
+                                        <input type="text" class="alargadopermission" name="permission" required >
+                                    </div>
+                                    <div class="alineacion">
+                                        <h4>Date:</h4>
+                                        <input type="date" class="alargadodate" name="date" required >
+                                    </div>
+                                </div>
+                        </div><!--cierre de la caja de permiso u autorizacion de padres-->
+                </div><!--cierre de caja para describir talla de uniforme y permisos-->
+           <div class="sub">     
+             <input type="submit"  class="sub" value="Submitting form" >
+           </div>    
+       </form><!--cierre de la forma de inscripcion-->
+     </main>
+
+    <div class="enlaces">
+      <div class="home"><a href="home.html">Home</a></div>
+      <div class="about"><a href="about-us.html">About Us</a></div>
+      <div class="contact"><a href="contacts.html">Contact Us</a></div>
+      <div class="main"><a href="presentacion-pagina-web.html">Main Page</a></div>
+      <div class="formulario"><a href="inscription-form.html">NYSL Form</a></div>
+      <div class="rules1"><a href="rules.html">NYSL Rules</a></div>
+      <div class="tablas1"><a href="tables.html">NYSL Game Info</a></div>
+      <div class="mapas1"><a href="maps.html">Maps</a></div>
+    </div>
+  </body>
+</html>
